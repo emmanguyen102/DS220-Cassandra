@@ -1,9 +1,10 @@
 # DS220-Cassandra
 Data Modelling with Cassandra
 
-Exercises for DataStax, DS220: Data Modeling Course
+DataStax, DS220: Data Modeling Course
 
 
+In order to do exercises, install [Oracle VM VirtualBox Manager](https://www.virtualbox.org/wiki/Downloads) and DS220 virtual machine, which can be found on the course moodle. 
 Open the terminal, force DSE to start
 
 ```
