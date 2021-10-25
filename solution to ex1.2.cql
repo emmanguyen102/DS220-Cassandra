@@ -8,7 +8,7 @@ CREATE KEYSPACE killrvideo
 -- switch to use this keyspace
 USE killrvideo;
 
-# create tables named 'videos' in this keyspace
+-- create tables named 'videos' in this keyspace
 CREATE TABLE videos (
 	video_id TIMEUUID,
 	added_date TIMESTAMP,
