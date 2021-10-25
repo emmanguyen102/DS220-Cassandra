@@ -32,3 +32,10 @@ the answer should be:
  system_traces |           True |     org.apache.cassandra.locator.SimpleStrategy | {"replication_factor":"2"}
 ```
 
+To exit Cassadra Query Language Shell(CQLSH) with command
+
+```
+$ exit
+```
+
+
