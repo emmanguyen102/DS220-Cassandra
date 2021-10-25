@@ -1,5 +1,5 @@
 # DS220-Cassandra
-Data Modelling with Cassandra
+Refer to [Data Modelling with Cassandra](https://academy.datastax.com/#/online-courses/ca2e1209-510b-44a6-97de-d5219d835319)
 
 DataStax, DS220: Data Modeling Course
 
