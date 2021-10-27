@@ -65,9 +65,9 @@ CREATE TABLE videos_by_tag_year (
  description text,
  title text,
  user_id uuid,
- PRIMARY KEY (tag, added_year, video_id)
+ PRIMARY KEY ((tag), added_year, video_id)
 )
-WITH CLUSTERING ORDER BY (added_year DESC);
+WITH CLUSTERING ORDER BY (added_year DESC, video_id ASC);
 
 -- import data again to this new table
 COPY videos_by_tag_year (tag, added_year, video_id, added_date, description, title, user_id) FROM 'labwork/clustering/videos_by_tag_year.csv' 
