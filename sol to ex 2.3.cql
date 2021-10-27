@@ -53,7 +53,7 @@ CREATE TABLE videos_by_genre (
  title text,
  user_id uuid,
  PRIMARY KEY ((genre), added_date, video_id )
-) WITH CLUSTERING ORDER BY (added_date DESC, video_id DESC );
+) WITH CLUSTERING ORDER BY (added_date DESC, video_id ASC );
 
 -- import data into this table
 COPY videos_by_genre
